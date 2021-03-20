@@ -5,5 +5,5 @@ function copy(){
     input.select();
     document.execCommand("copy");
     document.body.removeChild(input);
-    alert("Copied to clipboard.");
+    alert("已复制到剪贴板");
 }
