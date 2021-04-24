@@ -1,7 +1,7 @@
 function copy(){
     const input = document.createElement('input');
     document.body.appendChild(input);
-    input.setAttribute('value', "jessejeson@163.com");
+    input.setAttribute('value', "awa@outlook.hu");
     input.select();
     document.execCommand("copy");
     document.body.removeChild(input);
